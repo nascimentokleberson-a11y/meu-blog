@@ -7,14 +7,31 @@
     <style>
         header{
         background-color: #183C63;
-        color: #FFFFFF;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;;
         }
         main{
-        background-color: #FFFFFF;
+         background-color: #FFFFFF;
         color: #183C63;
-
+         max-width: 800px;
+        margin: 0 auto;
+         padding: 16px;
         }
-       
+       article{
+            display: flex;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -23,10 +40,14 @@
         <p> Boas-vindas ao meu novo blog! aqui vamos falar sobre a tecnologia </p>
     </header>
     <main>
+        <article>
         <img src="https://img.magnific.com/fotos-gratis/energia-nuclear-ia-inovacao-futura-de-tecnologia-disruptiva_53876-129784.jpg?semt=ais_hybrid&w=740&q=80 " alt="tecnologia">
+        <div> 
         <h2>Primeiro Post </h2>
-        <p> kleberson</p>
+       <p class="artigo-autor">Por: kleberson</p>
         <p> A tecnologia tornou-se uma parte intrínseca e indispensável de nossas vidas, permeando todos os aspectos da sociedade contemporânea. Desde a revolução industrial até a era digital, testemunhamos avanços tecnológicos que têm impactado significativamente a forma como vivemos, trabalhamos e nos relacionamos. Este artigo explora a importância da tecnologia em nossas vidas, destacando seus benefícios em diversas áreas.</p>
+  </div>
+    </article>
     </main>
 </body>
 </html>
